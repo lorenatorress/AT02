@@ -12,14 +12,14 @@ class Teste {
 }
 
 void main() {
-  Teste teste1 = Teste('Laura', 7.5);
-  Teste teste2 = Teste('Pedro', 9.0);
+  Teste teste1 = Teste('Caio', 7.5);
+  Teste teste2 = Teste('Marcia', 8.0);
 
   print('Estudante: ${teste1.estudante}, Nota: ${teste1.nota}');
   print('Estudante: ${teste2.estudante}, Nota: ${teste2.nota}');
 
-  teste1.estudante = 'Alice';
-  teste1.nota = 8.0;
+  teste1.estudante = 'Laura';
+  teste1.nota = 9.0;
 
   print('Estudante: ${teste1.estudante}, Nota: ${teste1.nota}');
 }
